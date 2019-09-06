@@ -10,6 +10,7 @@ const grades = [{id: 1, name: "Asaad Saad", course: "CS572", grade: 95}]
 * Your API accepts and returns `JSON` data.
 * Log all requests to a file `access.log` using `morgan` middleware. 
 * Write a custom middleware to verify if a user passes a `JSON` object that contains `id`, `name`, `course` and `grade`, otherwise send back an error.
-* Accept cross-domain XHR requests using `cors` middleware.
+* Accept cross-domain XHR requests using `cors` middleware.  
+  
 **Note: Add `node_modules` folder to your `.gitignore` file. You should only push your code along with `package.json` and `package-lock.json`**
 
