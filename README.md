@@ -4,7 +4,7 @@ Create an Express application that implements a Restful Stateless API for an ent
 ```javascript
 const students = [{id: 1, name: "Asaad Saad", course: "CS572", picture: "1570286884.jpg", grade: 95}]
 ```
-* Take into consideration that `students` entity is an immutable data structure.
+* Take into consideration that `students` entity should be treated as an immutable data structure.
 * Write routes for the following CRUD operations and use the proper HTTP verbs (`GET` one and all, `POST`, and `DELETE`).
 * Test with `HTTP Client` extension for VSCode.
 * Your API accepts and returns `JSON` data.
