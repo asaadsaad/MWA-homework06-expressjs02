@@ -2,7 +2,7 @@
 ## Exercise
 Create an Express application that implements a Restful Stateless API for an entity called `students`:
 ```javascript
-const students = [{id: 1, name: "Asaad Saad", course: "CS572", picture: "1570286884.jpg", grade: 95}]
+let students = [{id: 1, name: "Asaad Saad", course: "CS572", picture: "1570286884.jpg", grade: 95}]
 ```
 * Take into consideration that `students` entity should be treated as an immutable data structure.
 * Have in mind to have a separation between the Routing layer and the Controllers layer. 
