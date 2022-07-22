@@ -1,4 +1,4 @@
-# MWA Homework06 - Expressjs 02
+# MWA Homework 05 - Express
 ## Exercise
 Create an Express application that implements a Restful Stateless API for an entity called `students`:
 ```javascript
