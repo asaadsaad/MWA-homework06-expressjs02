@@ -4,10 +4,9 @@ Create an Express application that implements a Restful Stateless API for an ent
 ```javascript
 let students = [{id: 1, name: "Asaad Saad", course: "CS572", grade: 95}]
 ```
-* Take into consideration that `students` entity should be treated as an immutable data structure.
 * Have in mind to have a separation between the Routing layer and the Controllers layer. 
-* Write routes for the following CRUD operations and use the proper HTTP verbs (`GET` one and all,`POST`, `PUT`, and `DELETE`).
-* Test with `HTTP Client` extension for VSCode. (or any other client)
+* Implement the routes for the following CRUD operations and use the proper HTTP verbs (`GET` one and all,`POST`, `PUT`, and `DELETE`).
+* Test with any client extenstion or app (Do not build UI).
 * Your API accepts and returns `JSON` data from/to req/res body.
 * Log all requests to a file `access.log` using `morgan` middleware. 
 * For your `POST` and `PUT` routes, create and apply a custom middleware to verify if a the values `name`, `course` and `grade` are not null, otherwise send back an error.
