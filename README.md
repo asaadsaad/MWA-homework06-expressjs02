@@ -9,7 +9,7 @@ let courses = [{id: 1, title: 'Modern Web Application', students: [{id: 1, name:
 * Test with any client extenstion or app (Do not build UI).
 * Your API accepts and returns `JSON` data from/to req/res body.
 * Log all requests to a file `access.log` using `morgan` middleware. 
-* For your `POST` and `PUT` routes on the courses entity, create and apply a custom middleware to verify if a the values `name`, `title` are not null, otherwise send back an error.
+* For your `POST` and `PUT` routes on the courses entity, create and apply a custom middleware to verify if a the `title` value is not null, otherwise send back an error.
   
 **Note: Add `node_modules` folder to your `.gitignore` file. You should only push your code along with `package.json` and `package-lock.json`**
   
