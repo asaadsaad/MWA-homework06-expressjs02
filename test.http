@@ -1,0 +1,37 @@
+GET http://localhost:3000/courses
+
+###
+
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/courses/2
+
+###
+
+PUT http://localhost:3000/courses/2
+Content-Type: application/json
+
+{
+    "id" : 2,
+    "title" : "WAP",
+    "students" : [{
+        "id" : 2,
+        "name" : "San"
+        "grade" : 85
+    }]
+}
+
+###
+
+PATCH http://localhost:3000/courses/2
+Content-Type: application/json
+
+{ "grade" : 90}
+
+###
+
+DELETE http://localhost:3000/courses/2
+Content-Type: application/json
