@@ -12,7 +12,7 @@ let meals = [{
 }]
 ```
 * Have in mind to have a separation between the Routing layer and the Controllers layer. 
-* Implement the routes for the following CRUD operations for courses and students and use the proper HTTP verbs (`GET` one and all,`POST`, `PUT`, and `DELETE`).
+* Implement the routes for the following CRUD operations for meals and ingredients and use the proper HTTP verbs (`GET` one and all,`POST`, `PUT`, and `DELETE`).
 * Test with any client extenstion or app (Do not build UI).
 * Your API accepts and returns `JSON` data from/to req/res body.
 * Log all requests to a file `access.log` using `morgan` middleware. 
