@@ -4,7 +4,8 @@ Create an Express application that implements a Restful Stateless API for an ent
 ```javascript
 let meals = [{
     "_id": "1", 
-    "name": "Spaghetti Bolognese", 
+    "title": "Spaghetti Bolognese", 
+    "category": {"_id": "1", "name": "Italian"},
     "ingredients": [
          {"_id": "1", "name": "olive oil", "amount": "1 1/2 tbsp"}, 
          {"_id": "2", "name": "garlic cloves", "amount": "2" }
@@ -22,6 +23,6 @@ let meals = [{
   
 **Optional Requirements:** 
 * Add a property `"pictures": [{"_id": "1", "filename": "1570286884.jpg"}, {"_id": "2", "filename": "1570286885.jpg"}]` to your `meals` entity.
-* Use a middleware to upload the meal's picture into a directory `./assets/pics`, only `.jpg` files should be accepted and picture size should not exceed `5 MB`, files should be renamed to represent Unix timestamps. Note that this request must have a `content-type` of `"multipart/form-data"`. *(You may use `multer` or `formidable` middlewares)*
+* Use a middleware to upload the meal's picture into a directory `./assets/pics`. Note that this request must have a `content-type` of `"multipart/form-data"`. *(You may use `multer` or any other middleware to upload binary files)*
 * Define a middleware to serve all static images of `./pictures/*` from `./assets/pics/*`.
 * Explore the possibility of uploading the files to a cloud service like S3.
