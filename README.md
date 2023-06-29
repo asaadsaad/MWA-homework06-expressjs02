@@ -1,6 +1,12 @@
 # MWA Homework - Express
+## Notes
+* Create a `.gitignore` file and make sure not to push the `node_modules` folder to GitHub.
+* All files must have a `.ts` extension.
+* Do not submit any compressed `.zip` files.
+* Never use the type `any` in your code, all objects must be typed.
+* Refer to the code honor submission policy in the syllabus.
 ## Exercise
-Create an Express application using TypeScript that implements a Restful Stateless API for an entity called `blogs` that has sub-entity called `tags`:
+Create an Express application using TypeScript that implements a Restful Stateless API for an entity called `blogs` that has a sub-entity called `tags`:
 ```typescript
 interface ITag {_id: string, tag: string}
 interface IBlog {_id: string, title: string, body: string, tags: ITag[]}
@@ -15,14 +21,13 @@ let blogs : IBlog[] = [{
     ],
 }]
 ```
+* Your model layer consists of an array of blogs, persisted in memory as `IBlog[]`.
 * Have in mind to have a separation between `blogs` and `tags` Routing and Controller layers. 
 * Implement the routes for the following CRUD operations for meals and ingredients and use the proper HTTP verbs (`GET` one and all, `POST`, `PUT`, and `DELETE`).
 * Test with any client extension or app (Do not build UI).
 * Your API accepts and returns `JSON` data from/to req/res body.
 * Log all requests to a file `access.log` using `morgan` middleware. 
 * For your `POST` and `PUT` routes on the `meals` entity, create and apply a custom middleware to verify if the `title` value is not null, otherwise, send back an error.
-  
-**Note: Add `node_modules` folder to your `.gitignore` file. You should only push your code along with `package.json` and `package-lock.json`**
   
 **Optional Requirement:**   
   
