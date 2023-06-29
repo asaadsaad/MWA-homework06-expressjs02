@@ -32,7 +32,7 @@ let blogs : IBlog[] = [{
   
 **Optional Requirement:**   
   
-Add a property `"pictures": [{"_id": "1", "filename": "1570286884.jpg"}, {"_id": "2", "filename": "1570286885.jpg"}]` to your `blogs` entity, and create two API endpoints, one to upload and another to download the picture(s) by ID.
+Add a property `"pictures": [{"_id": "1", "filename": "1570286884.jpg"}, {"_id": "2", "filename": "1570286885.jpg"}]` to your `blogs` entity, and create two API endpoints, one to upload and another to download the picture(s) by the picture `_id` property.
   
 * Use a middleware to upload the meal's picture into a directory `./uploads`.
 * You may use `multer` or any other middleware to upload binary/multipart files.
