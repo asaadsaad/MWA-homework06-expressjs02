@@ -12,7 +12,7 @@ Create an Express application using TypeScript that implements a Restful Statele
 interface ITag {_id: string, tag: string}
 interface IBlog {_id: string, title: string, body: string, tags: ITag[]}
 
-let blogs : IBlog[] = [{
+const blogs : IBlog[] = [{
     "_id": "1", 
     "title": "Lorem Ipsum", 
     "body": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
