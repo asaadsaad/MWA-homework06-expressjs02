@@ -1,8 +1,9 @@
 # MWA Homework - Express
-## Notes
+## To receive credit for this homework, make sure you meet the following requirements:
 * Create a `.gitignore` file and make sure not to push the `node_modules` folder to GitHub.
 * All files must have a `.ts` extension.
 * Do not submit any compressed `.zip` files.
+* Homework deadline submission is 9:00 PM.
 * Using the type `any` is not allowed, all objects must be typed.
 * Use the `RequestHandler<ReqParamsType, ResBodyType, ReqBodyType, ReqQueryParamsType>` type for all request handlers functions.
 * Refer to the code honor submission policy in the syllabus.
