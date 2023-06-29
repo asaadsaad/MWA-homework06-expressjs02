@@ -3,7 +3,7 @@
 * Create a `.gitignore` file and make sure not to push the `node_modules` folder to GitHub.
 * All files must have a `.ts` extension.
 * Do not submit any compressed `.zip` files.
-* Never use the type `any` in your code, all objects must be typed.
+* Using the type `any` is not allowed, all objects must be typed.
 * Refer to the code honor submission policy in the syllabus.
 ## Exercise
 Create an Express application using TypeScript that implements a Restful Stateless API for an entity called `blogs` that has a sub-entity called `tags`:
