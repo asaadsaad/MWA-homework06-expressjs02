@@ -24,11 +24,21 @@ let blogs : IBlog[] = [{
 ```
 * Your model layer consists of an array of blogs, persisted in memory as `IBlog[]`.
 * Have in mind to have a separation between `blogs` and `tags` Routing and Controller layers. 
-* Implement the routes for the following CRUD operations for meals and ingredients and use the proper HTTP verbs (`GET` one and all, `POST`, `PUT`, and `DELETE`).
+* Implement the routes for the following CRUD operations for blogs and tags and use the proper HTTP verbs:
+    *  get all blog posts 
+    *  get one blog post by the blog ID
+    *  add a new blog post (title and body)
+    *  update a blog post title and body by the blog ID
+    *  remove a blog post by the blog ID
+    *  get all tags that belong to a blog ID
+    *  get one tag by the tag ID, that belongs to a blog ID
+    *  add a new tag
+    *  update a tag by the tag ID, that belongs to a blog ID
+    *  remove a tag by the tag ID, that belongs to a blog ID     
 * Test with any client extension or app (Do not build UI).
 * Your API accepts and returns `JSON` data from/to req/res body.
 * Log all requests to a file `access.log` using `morgan` middleware. 
-* For your `POST` and `PUT` routes on the `meals` entity, create and apply a custom middleware to verify if the `title` value is not null, otherwise, send back an error.
+* For your `POST` and `PUT` routes on the `meals` entity, create and apply a custom middleware to verify if the `title` and `body` values are not null, and the title has a minimum of 100 chars. If not, send an error response.
   
 **Optional Requirement:**   
   
