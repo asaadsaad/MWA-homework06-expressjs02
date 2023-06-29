@@ -1,5 +1,5 @@
 # MWA Homework - Express
-## To receive credit for this homework, make sure you meet the following requirements:
+## To receive credit, make sure you meet the following requirements:
 * Create a `.gitignore` file and make sure not to push the `node_modules` folder to GitHub.
 * All files must have a `.ts` extension.
 * Do not submit any compressed `.zip` files.
