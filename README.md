@@ -4,7 +4,7 @@
 * All files must have a `.ts` extension.
 * Do not submit any compressed `.zip` files.
 * Using the type `any` is not allowed, all objects must be typed.
-* Use the `RequestHandler<ReqParamsType, ResBodyType, ReqBodyType, ReqQueryParamsType>` type for all request handlers functions.
+* Use the `RequestHandler<ReqParamsType, ResBodyType, ReqBodyType, ReqQueryParamsType>` type for all routes request handlers functions.
 * The submission deadline is 9:00 PM. For more details, refer to the code honor submission policy in the syllabus.
 ## Exercise
 Create an Express application using TypeScript that implements a Restful Stateless API for an entity called `blogs` that has a sub-entity called `tags`:
