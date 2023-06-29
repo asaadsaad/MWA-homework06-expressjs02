@@ -49,7 +49,7 @@ Add a property `"pictures": [{"_id": "1", "filename": "1570286884.jpg"}, {"_id":
 * Use a middleware to upload the blog's picture into a directory `./uploads`.
 * You may use `multer` or any other middleware to upload binary/multipart files.
 ```typescript
-// update your interface as follows:
+// Update your interface as follows:
 interface IPicture {_id: string, filename: string}
 interface IBlog {_id: string, title: string, body: string, tags: ITag[], pictures: IPicture[]}
 ```
